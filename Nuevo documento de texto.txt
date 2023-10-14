@@ -1,0 +1,41 @@
+/* Conexiones que Transforman el Mundo */
+
+position: absolute;
+width: 663px;
+height: 159px;
+left: 301px;
+top: 134px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 76px;
+line-height: 91px;
+
+color: #FFFFFF;
+
+
+/* COntacto */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 24.63%;
+bottom: 15.37%;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
