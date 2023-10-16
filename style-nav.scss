@@ -18,16 +18,14 @@ body{
 .barra-navegation{
     
     padding-top: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    padding: 0px 10% ;
+    padding: 0px ;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     z-index: 1000;
     background: linear-gradient(black,transparent);
 
