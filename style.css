@@ -73,27 +73,66 @@ header .encabezado button {
 .seccion {
   color: white;
 }
+.seccion .seccion-contenedores {
+  display: flex;
+  gap: 20px;
+}
+.seccion .seccion-contenedores .seccion-contenedores-iconos {
+  width: 200px;
+  height: 160px;
+  border-radius: 5px 50px;
+  background: linear-gradient(rgba(4, 90, 160, 0.898), #011B30);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.seccion .seccion-contenedores .seccion-contenedores-iconos i {
+  font-size: 42px;
+}
+.seccion .seccion-contenedores .porcentajes {
+  width: 320px;
+  height: 280px;
+}
+.seccion .seccion-contenedores .porcentajes p {
+  padding: 0;
+  font-size: 25px;
+  border: 0;
+}
+.seccion .seccion-contenedores .porcentajes h3 {
+  font-size: 100px;
+}
 .seccion .container {
   padding: 30px 0;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+}
+.seccion-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .seccion-texto h2 {
   font-size: 50px;
 }
 .seccion-texto p {
   font-size: 25px;
+  border-top: white 1px solid;
+  padding-top: 20px;
 }
 .seccion img {
-  width: 300px;
-  height: 300px;
+  width: 650px;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .seccion-claro {
-  background: linear-gradient(90deg, black, #045AA0);
+  background: linear-gradient(-90deg, rgba(1, 27, 48, 0.898), #045AA0);
 }
 
 .seccion-oscuro {
-  background: linear-gradient(-90deg, black, #011B30);
+  background: linear-gradient(90deg, rgba(1, 27, 48, 0.898), #045AA0);
 }/*# sourceMappingURL=style.css.map */
