@@ -122,6 +122,21 @@ header .encabezado button {
   border-top: white 1px solid;
   padding-top: 20px;
 }
+.seccion .seccion-comentarios {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.seccion .seccion-comentarios .seccion-comentarios-contenedores {
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.04) 100%);
+}
+.seccion .seccion-comentarios .seccion-comentarios-contenedores h3 {
+  font-size: 25px;
+}
+.seccion .seccion-comentarios .seccion-comentarios-contenedores p {
+  font-size: 16px;
+}
 .seccion img {
   width: 650px;
   height: 600px;
